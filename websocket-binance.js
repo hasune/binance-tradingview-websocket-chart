@@ -82,7 +82,7 @@ fetch(binance_chart_data_url, {
         }
 
     ));
-    // console.log(data)
+    console.log(data)
 
     // // 현재 캔들은 총 캔들 길이에서 하나를 뺀것.
     currentBar = data[data.length - 1];
